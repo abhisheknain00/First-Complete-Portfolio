@@ -165,7 +165,7 @@ h3 {
 	padding: 20px 0;
   }
 
-.resume a:hover{
+a:hover.resume-link{
 	color: white;
 	opacity: 1;
 }
@@ -174,13 +174,14 @@ h3 {
 	position: absolute;
 	right: 50;
 	bottom: 50;
+}
+
+.resume-link{
 	opacity: 0.7;
 	color: white;
 }
 
-.resume a:visited{
-	color: white;
-}
+
 
 #profile{
 	height: 20px;
